@@ -1,0 +1,1 @@
+pscp -scp C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\Scripted_Pipeline_GitHub\systemcheck\get_mem_stat.sh soepapa@192.168.251.210:/home/soepapa/Jenkins/workspace/
