@@ -24,4 +24,4 @@ if (( $minute%5==0 )); then
 fi
 
 
-find $root_path/SystemChkOutFiles/memusage* -mmin +720 -exec rm -f {} \;
+find $root_path/SystemChkOutFiles/memusage* -mmin +720 -exec rm -f {} \;   2>/dev/null
