@@ -1,7 +1,7 @@
 #!/bin/sh
 
 root_path="/tmp"
-mkdir -p $root_path/OutFiles
+mkdir -p $root_path/SystemChkOutFiles
 STAMP=`date +%Y%m%d_%H%M%S`
 out_file="${root_path}/OutFiles/memusage_${STAMP}.out"
 
